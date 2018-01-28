@@ -1,0 +1,41 @@
+.Stage-header {
+  background-color: #222;
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+
+.Stage-title {
+  font-size: 1.5em;
+}
+
+.Stage-intro {
+  font-size: large;
+  line-height: 24px;
+  text-align: left;
+  padding: 0 5%;
+}
+
+.Stage-feedback {
+  font-size: large;
+}
+
+.Stage-input {
+  width: 90%;
+  border: 1px solid gray;
+  font-size: 20px;
+  padding: 2px;
+  margin-bottom: 24px;
+}
+
+.Stage-button {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  width: 120px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+  border-radius: 4px;
+  cursor: pointer;
+}

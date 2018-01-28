@@ -1239,12 +1239,12 @@ caniuse-api@^1.5.2:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000760"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000760.tgz#3ea29473eb78a6ccb09f2eb73ac9e1debfec528d"
+  version "1.0.30000764"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000764.tgz#d73ab11ae62f6a9e2f69867d6d9c23ae3f2e5d8d"
 
 caniuse-lite@^1.0.30000748, caniuse-lite@^1.0.30000760:
-  version "1.0.30000760"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000760.tgz#ec720395742f1c7ec8947fd6dd2604e77a8f98ff"
+  version "1.0.30000764"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000764.tgz#97ea7472f9d3e691eede34f21983cfc219ac7842"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -2463,7 +2463,7 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
-fbjs@^0.8.16:
+fbjs@^0.8.1, fbjs@^0.8.16, fbjs@^0.8.4:
   version "0.8.16"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.16.tgz#5e67432f550dc41b572bf55847b8aca64e5337db"
   dependencies:
@@ -3798,6 +3798,18 @@ jsx-ast-utils@^2.0.0:
   dependencies:
     array-includes "^3.0.3"
 
+katex@0.7.1, katex@^0.7.0:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.7.1.tgz#06bb5298efad05e1e7228035ba8e1591f3061b8f"
+  dependencies:
+    match-at "^0.1.0"
+
+katex@^0.9.0-alpha1:
+  version "0.9.0-alpha1"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.9.0-alpha1.tgz#95e2899fa2aac9927f7e3bc2744d39670dfd8cc5"
+  dependencies:
+    match-at "^0.1.1"
+
 killable@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/killable/-/killable-1.0.0.tgz#da8b84bd47de5395878f95d64d02f2449fe05e6b"
@@ -3947,8 +3959,8 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
 loglevel@^1.4.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.5.1.tgz#189078c94ab9053ee215a0acdbf24244ea0f6502"
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.0.tgz#ae0caa561111498c5ba13723d6fb631d24003934"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -4001,6 +4013,10 @@ makeerror@1.0.x:
 map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
+
+match-at@^0.1.0, match-at@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/match-at/-/match-at-0.1.1.tgz#25d040d291777704d5e6556bbb79230ec2de0540"
 
 math-expression-evaluator@^1.2.14:
   version "1.2.17"
@@ -5114,9 +5130,17 @@ react-dev-utils@^4.2.1:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@16.1.0:
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.1.0.tgz#ab6fd2a285096f388aeba51919a573d06c9bdde4"
+react-dom@15.4.2:
+  version "15.4.2"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.4.2.tgz#015363f05b0a1fd52ae9efdd3a0060d90695208f"
+  dependencies:
+    fbjs "^0.8.1"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.0"
+
+react-dom@^16.1.0:
+  version "16.1.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.1.1.tgz#b2e331b6d752faf1a2d31399969399a41d8d45f8"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
@@ -5126,6 +5150,16 @@ react-dom@16.1.0:
 react-error-overlay@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
+
+react-katex@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-katex/-/react-katex-1.2.0.tgz#bdbdbd98856ebc1448b607487d9385b7dca06907"
+
+react-latex@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-latex/-/react-latex-1.0.1.tgz#208052ff0db20e413a1e070341ceb182607b52f5"
+  dependencies:
+    katex "^0.7.0"
 
 react-scripts@1.0.17:
   version "1.0.17"
@@ -5170,9 +5204,25 @@ react-scripts@1.0.17:
   optionalDependencies:
     fsevents "1.1.2"
 
-react@16.1.0:
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.1.0.tgz#1c2bdac3c17fe7ee9282fa35aca6cc36387903e1"
+react-tex@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/react-tex/-/react-tex-1.3.0.tgz#a929b6c5317dcc088f6e4b7e67c4582250c084fb"
+  dependencies:
+    katex "0.7.1"
+    react "15.4.2"
+    react-dom "15.4.2"
+
+react@15.4.2:
+  version "15.4.2"
+  resolved "https://registry.yarnpkg.com/react/-/react-15.4.2.tgz#41f7991b26185392ba9bae96c8889e7e018397ef"
+  dependencies:
+    fbjs "^0.8.4"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.0"
+
+react@^16.1.0:
+  version "16.1.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.1.1.tgz#d5c4ef795507e3012282dd51261ff9c0e824fe1f"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
